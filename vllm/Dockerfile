@@ -5,6 +5,9 @@ FROM docker.io/vllm/vllm-openai:v0.5.0
 WORKDIR /app
 RUN apt install screen git
 
+#     pip install flash-attn --no-build-isolation && \
+
+
 RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple && \
     pip install --upgrade pip && \    
     pip install transformers && \
@@ -45,7 +48,6 @@ RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple && 
     pip install openai-whisper && \
     pip install xlrd && \
     pip install pypdf && \
-    pip install flash-attn --no-build-isolation && \
     pip install trl && \
     pip install gradio && \
     pip install modelscope && \
