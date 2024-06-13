@@ -58,7 +58,5 @@ RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple && 
     pip install gradio && \
     pip install modelscope && \
     pip install timm open_clip_torch langchain_community && \
-    pip install openai autoawq && \
-    pip install git+https://gitee.com/jinfagang/vllm
-
+    pip install openai autoawq 
 
