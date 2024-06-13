@@ -17,7 +17,6 @@ RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple && 
     pip install datasets   && \
     pip install zstandard   && \
     pip install einops && \
-    pip install deepspeed && \
     pip install peft && \
     pip install colorama && \
     pip install accelerate && \
