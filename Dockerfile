@@ -1,6 +1,6 @@
 # 使用您提供的镜像名称作为基础镜像
 # FROM m.daocloud.io/ghcr.io/coreweave/ml-containers/torch-extras:acd3ada-nccl-cuda12.2.2-ubuntu20.04-nccl2.21.5-1-torch2.3.0-vision0.18.0-audio2.3.0
-FROM ghcr.nju.edu.cn/coreweave/ml-containers/torch-extras:acd3ada-nccl-cuda12.2.2-ubuntu20.04-nccl2.21.5-1-torch2.3.0-vision0.18.0-audio2.3.0
+FROM ghcr.io/coreweave/ml-containers/torch-extras:acd3ada-nccl-cuda12.2.2-ubuntu20.04-nccl2.21.5-1-torch2.3.0-vision0.18.0-audio2.3.0
 
 # 设置工作目录
 WORKDIR /app
